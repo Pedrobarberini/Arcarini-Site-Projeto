@@ -1,73 +1,75 @@
-# React + TypeScript + Vite
+Arcarini Sistemas 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema institucional desenvolvido para apresentar os serviços, soluções e diferenciais da Arcarini Sistemas, com foco em tecnologia, inovação e presença digital moderna.
 
-Currently, two official plugins are available:
+📌 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O projeto foi desenvolvido com o objetivo de criar uma plataforma moderna, responsiva e intuitiva para representar a identidade da empresa na web.
 
-## React Compiler
+A aplicação conta com:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Interface moderna e responsiva
+Navegação fluida entre seções
+Estrutura organizada para escalabilidade
+Design focado em experiência do usuário
+Componentes reutilizáveis
+Layout adaptado para dispositivos móveis
+🛠️ Tecnologias Utilizadas
+HTML5
+CSS3
+JavaScript
+Vue.js
+Vite
+🎨 Funcionalidades
+✅ Página institucional
+✅ Seção de serviços
+✅ Área de contato
+✅ Navegação com scroll suave
+✅ Layout responsivo
+✅ Estrutura otimizada para manutenção
+📂 Estrutura do Projeto
+arcarini-sistemas/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── views/
+│   ├── App.vue
+│   └── main.js
+│
+├── package.json
+├── vite.config.js
+└── README.md
+⚙️ Como Executar o Projeto
+Clone o repositório
+git clone https://github.com/Pedrobarberini/Arcarini-Site-Projeto.git
+Acesse a pasta do projeto
+cd arcarini-sistemas
+Instale as dependências
+npm install
+Execute o servidor local
+npm run dev
 
-## Expanding the ESLint configuration
+O projeto estará disponível em:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+http://localhost:5173
+📱 Responsividade
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+O sistema foi desenvolvido pensando em diferentes tamanhos de tela:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Desktop
+Tablet
+Smartphones
+💡 Objetivo
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Criar uma presença digital moderna para empresas que desejam apresentar seus serviços de forma profissional, elegante e acessível.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+👨‍💻 Autor
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Desenvolvido por Pedro Barberini , Antonio Carvalho.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+GitHub: Pedro Barberini
+📄 Licença
+
+Este projeto está sob a licença MIT.
